@@ -1,0 +1,61 @@
+*{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    margin: 50px 50px 0 50px;    
+}
+
+.logo img{
+    width: 100%
+}
+.git{
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    float: left;
+}
+.micro{
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    float: right;
+}
+img{
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+}
+h1
+{
+    font-size: 40px;
+}
+footer{
+    margin-top:700px;
+}
+@media (min-width:  375px) and (max-width:  1170px) {   
+    .logo{
+        width: 100%;
+    }
+    h1 {
+        font-size: 3.5rem;}
+    .git{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        margin-right: 50px;
+    }
+    .micro{
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+        text-align: justify;
+    }
+    p{
+        margin-bottom: 30px; 
+    }
+ }
